@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+}
+/* page1 */
+
+.page1{
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(./images/Rectangle\ 1.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 100%;
+}
+
+.navbar{
+    max-width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header{
+    max-width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h2{
+    font-size: 64px;
+    font-family: sans-serif;
+    margin-top: -200px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.header p{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.header button{
+    width: 30%;
+    height: 5vh;
+    background: none;
+    border: 1px solid black;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+.header button i{
+    padding-left: 20px;
+}
+
+.header button:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+
+/* page2 */
+
+.page2{
+    max-width: 100%;
+    height: 80vh;
+    display: flex;
+   
+}
+
+.page2_right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F1F1F1;
+}
+
+.page2_right__text{
+    max-width: 50%;
+    height: 35vh;
+    text-align: right;
+}
+
+.page2_right__text h2{
+   font-family: Montserrat, sans-serif;
+   font-size: 38px;
+   margin-bottom: 30px;
+}
+
+.page2_right__text p{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+/* page3 */
+
+.page3{
+    max-width: 100%;
+}
+
+.page3__title{
+    max-width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;  
+}
+
+.page3__title h2{
+   font-weight: 400;
+   font-size: 48px;
+} 
+
+.Portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portfolio button{
+    position: relative;
+    top: -520px;
+    left: -250px;
+    padding: 10px;
+    border: 1 solid black;
+    background: none;
+    transition: 1s;
+
+}
+
+.Portfolio button:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+
+/* page4 */
+
+.page4__tittle {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 80px;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: #1A1F25;
+
+}
+  
+.page4__tittle  h1 {
+    margin: 30px;
+    font-size: 30px;
+}
+  
+.page4__tittle  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.border-bottom {
+    border-bottom: 1px solid gray;
+}
+
+.left {
+    border-left: 1px solid gray;
+}
+
+.page4__tittle  .grid .grid-icon {
+    height: 180px;
+}
+
+.page4__tittle .grid .grid-icon i {
+    margin: 3.5rem 0 1rem;
+    font-size: 50px;
+}
+
+.page4__tittle  .grid .grid-icon p {
+    line-height: 24px;
+}
+  
+.page4__tittle  .grid .grid-icon button {
+    width: 155px;
+    height: 50px;
+    background-color: transparent;
+    margin-top: 4rem;
+    border: 1px solid #fff;
+}
+
+.page4__tittle  .grid .grid-icon button {
+    color: white;
+}
+
+/* page5 */
+.container5 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/13e3b8a33eb0648c3ae4a07e21657328\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.box {
+    padding-top: 270px;
+    padding-left: 250px;
+}
+
+.box h1 {
+    padding-bottom: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;   
+}
+
+.box p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;  
+}
+
+.left-right {
+    display: flex;
+    gap: 100px;
+}
+
+.left-right  {
+    display: flex;
+}
+
+.text-left img {
+    margin-top: 20px;
+}
+
+.text-left p{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.lefft {
+    display: flex;
+}
+
+.text-right img {
+    margin-top: 20px;
+}
+
+.text-right p {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.right {
+    display: flex;
+}
+
+/* page6 */
+
+.page6{
+    max-width: 100;
+    display: flex;
+}
+
+.page6_left{
+    width: 50%;
+    height: 100vh;
+    background-image: url(./images/Rectangle\ 4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}  
+
+.page6_left h2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    padding-bottom: 40px;
+   
+}
+
+.page6_left label{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.page6_left input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    padding-top: 20px;
+    color: #fff;
+    outline: none;
+}
+
+.page6_left button{
+    width: 35%;
+    height: 5vh;
+    background: none;
+    border: 1px solid white;
+    margin-top: 50px;
+    color: #fff;
+    transition: 1s;
+}
+
+.page6_left button:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+
+.page6_right{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.page6_right h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: right;
+    padding-top: 100px;
+}
+
+.page6_right__cards{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.card{
+    width: 40%;
+    height: 45vh;
+    border: 1px solid white;
+    background-image: url(./images/Ellipse\ 7.svg);
+    background-repeat: no-repeat;
+    background-position: top center; 
+}
+
+.card-center{
+    background-image: url(./images/Ellipse\ 8.svg);
+    background-repeat: no-repeat;
+    background-position: top center; 
+    border: none;
+    background-color: rgb(64, 118, 188);
+}
+
+.card-center .price{
+    margin-top: 60px;
+}
+
+.card img{
+    position: relative;
+    top: -14px;
+    left: 60px;
+    
+}
+
+.card h3{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+}
+
+.card p{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.price{
+    text-decoration: line-through;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.card span{
+    color: #fff;
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+}
+
+/* page7 */
+
+.page7{
+    max-width: 100%;
+    height: 60vh;
+    background-color: #1A1F25;
+    
+}
+
+.page7_items{
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #F1F1F1;
+    border-bottom: 1px solid white;
+}
+
+.page7_items__item{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page7_items__item h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page7_items__item p{
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.page7_items__item p:hover{
+    color: aqua;
+}
+
+.page7_items__item span{
+    display: block;
+    padding-top: 20px;
+}
+
+.page7_items__item span:hover{
+    color: aqua;
+}
+
+.page7_items__item, i {
+    padding-right: 20px;
+}
+
+.page7_footer{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.page7_footer__tittle h4{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.page7_footer__tittle, h4:hover{
+    color: aqua;
+}
+
+.page7_footer__socil i{
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px; 
+    transition: 1s;
+}
+
+
+.page7_footer__socil i:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
